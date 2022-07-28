@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "first-react-app",
+    "libraryId": "06075f0c-cb11-4170-850d-1b44eea011cf",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "first-react-app",
+    "solutionShortDescription": "first-react-app description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
