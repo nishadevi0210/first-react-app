@@ -9,9 +9,6 @@ import { List } from './myComponents/List';
 export default class FirstApp extends React.Component<IFirstAppProps, {}> {
   public render(): React.ReactElement<IFirstAppProps> {
     const {
-      description,
-      isDarkTheme,
-      environmentMessage,
       hasTeamsContext,
       userDisplayName
     } = this.props;

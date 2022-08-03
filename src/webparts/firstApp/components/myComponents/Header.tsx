@@ -5,8 +5,8 @@ export const Header = () => {
 	return(
 		<div>
 			<header className="bg-success notes-title">
-				<p className="pp"> Notes
-					<span className="badge badge-light" id="badgeCount">{}</span>
+				<p className={styles.titleText}> My Notes
+					<span className="badge badge-light" id="badgeCount">{0}</span>
 				</p>
 			</header>
 		</div>

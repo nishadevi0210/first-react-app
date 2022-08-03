@@ -9,10 +9,28 @@
           "manifest": "./src/webparts/firstApp/FirstAppWebPart.manifest.json"
         }
       ]
+    },
+    "tris-app-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/trisApp/TrisAppWebPart.js",
+          "manifest": "./src/webparts/trisApp/TrisAppWebPart.manifest.json"
+        }
+      ]
+    },
+    "list-model-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listModel/ListModelWebPart.js",
+          "manifest": "./src/webparts/listModel/ListModelWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "FirstAppWebPartStrings": "lib/webparts/firstApp/loc/{locale}.js"
+    "FirstAppWebPartStrings": "lib/webparts/firstApp/loc/{locale}.js",
+    "TrisAppWebPartStrings": "lib/webparts/trisApp/loc/{locale}.js",
+    "ListModelWebPartStrings": "lib/webparts/listModel/loc/{locale}.js"
   }
 }

@@ -14,13 +14,17 @@
   box-sizing: border-box;
 }
 
+.titleText {
+  text-align: center;
+}
+
 ul {
 list-style-type: circle;
 list-style-position: inside;
 }
 
 ul li {
-  background: #cce5ff;
+  background: #0b5a5a;
   margin: 5px;
 }
 
@@ -29,7 +33,7 @@ background-color: #c3e6cb;
 }
 
 div .notes-list, .notes-text {
-border: 2px solid green;
+border: 2px solid #089ea3;
 }
 
 .textarea {
